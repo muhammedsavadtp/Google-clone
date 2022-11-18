@@ -1,0 +1,60 @@
+body {
+    margin: 0%;
+  }
+  header {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    padding-left: 10px;
+    background-color: rgb(4, 4, 4);
+  }
+  .gog {
+    padding-left: 42px;
+    padding-top: 20px;
+    height: 0px;
+    width: 10px;
+  }
+  .logo {
+    height: 30px;
+    width: 92px;
+  }
+  .glt{
+    padding-top: 10px;
+    margin-top: 1px;
+  }
+  .searchbar {
+    display: flex;
+    height: 38px;
+    background: #bfc0c5;
+    width: 1000px;
+    margin-left: 186px;
+    border-radius: 25px;
+    padding: 3px;
+    margin-top: -6px; 
+  }
+  .type {
+    
+    height: 10px;
+    width: 969px;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 25px;
+    color: rgb(17, 15, 15);
+    border: none;
+    font-size: medium;
+    border-color: transparent;
+    background-color: transparent;
+    outline: none;
+  }
+  .bt1{
+    border-radius: 25px;
+    border-color:transparent;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+    cursor: pointer;
+    opacity: 0.7;
+    overflow: hidden;
+    width: 50px;
+    height: 39px;
+    padding: 0;
+    margin: 0; 
+  }
