@@ -1,26 +1,75 @@
 <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <title>google-clone</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/x-icon" href="https://www.transparentpng.com/thumb/google-logo/google-logo-png-icon-free-download-SUF63j.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google-clone</title>
+    <link rel="icon" type="image" href="https://www.pngplay.com/wp-content/uploads/13/Google-Logo-PNG-HD-Quality.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <div class="glt">
-      <div class="gog">
-       <a href="https://www.google.com/?&bih=492&biw=1536&rlz=1C1UEAD_enIN1017IN1017&hl=en-GB"> <img class="logo" src="/image/googlelogo_light_color_92x30dp.png" alt="img" /></a>
-      </div>
+    <div class="container">
+        <div class="header">
+            <form class="table">
+                <tr>
+
+                    <td ><a href="https://mail.google.com/"><label class="label1"> Gmail</label> </a> </td>
+                    <td> &nbsp; </td>
+                    <td ><label class="label1">Image</label></td>
+                </tr>
+
+            </form>
+            <div class="profile">
+                <img class="imgprf" src="image/apps_FILL0_wght400_GRAD0_opsz48.png" >
+            </div>
+            <div class="profile">
+                <img class="imgprf" src="https://www.learningguild.com/images/redesign-2022/avatar.png">
+            </div>
+
+        </div>
+
+
+
+
     </div>
-   
-    <div class="searchbar">
-      
-        <input class="type" type="text"  placeholder="search Google or type a URL">
-        <button class="bt1" type="submit"> <img class="searchicon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/1200px-Vector_search_icon.svg.png" alt=""></button>
-      </div>
+    <div class="body-container">
+        <div class="google-logo-image">
+            
+            <img class="image-G"
+                src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png">
+        </div>
+        <div class="search-bar">
+               <div class="image1">
+            
+                <img class="search-icon" src="image/search_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                    
+                   
+               </div>
+               <div class="search">
+                <input class="text-input" type="text">
+
+               </div>
+               <div class="voice">
+                <img class="voice-icon" src="https://freepngimg.com/thumb/microphone/70666-voice-microphone-google-search-logo-png-file-hd.png" alt="">
+
+               </div>
+               <div class="camera">
+                <img class="search-icon" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IlN0YW5kYXJkX3Byb2R1Y3RfaWNvbiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIKCSB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE5MnB4IiBoZWlnaHQ9IjE5MnB4IiB2aWV3Qm94PSIwIDAgMTkyIDE5MiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTkyIDE5MiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxyZWN0IGlkPSJib3VuZGluZ19ib3hfMV8iIGZpbGw9Im5vbmUiIHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIi8+CjxnIGlkPSJhcnRfbGF5ZXIiPgoJPGNpcmNsZSBpZD0iRG90IiBmaWxsPSIjNDI4NUY0IiBjeD0iOTYiIGN5PSIxMDQuMTUiIHI9IjI4Ii8+Cgk8cGF0aCBpZD0iUmVkIiBmaWxsPSIjRUE0MzM1IiBkPSJNMTYwLDcydjQwLjE1VjEzNmMwLDEuNjktMC4zNCwzLjI5LTAuODIsNC44MnYwdjBjLTEuNTcsNC45Mi01LjQzLDguNzgtMTAuMzUsMTAuMzVoMHYwCgkJYy0xLjUzLDAuNDktMy4xMywwLjgyLTQuODIsMC44Mkg2NmwxNiwxNmg1MGgxMmM0LjQyLDAsOC42My0wLjksMTIuNDYtMi41MWMzLjgzLTEuNjIsNy4yOC0zLjk2LDEwLjE3LTYuODYKCQljMS40NS0xLjQ1LDIuNzYtMy4wMywzLjkxLTQuNzRjMi4zLTMuNCwzLjk2LTcuMjgsNC44MS0xMS40NGMwLjQzLTIuMDgsMC42NS00LjI0LDAuNjUtNi40NXYtMTJWOTYuMTVWODRsLTYtMTlsLTEwLjgyLDIuMTgKCQlDMTU5LjY2LDY4LjcxLDE2MCw3MC4zMSwxNjAsNzJ6Ii8+Cgk8cGF0aCBpZD0iQmx1ZSIgZmlsbD0iIzQyODVGNCIgZD0iTTMyLDcyYzAtMS42OSwwLjM0LTMuMjksMC44Mi00LjgyYzEuNTctNC45Miw1LjQzLTguNzgsMTAuMzUtMTAuMzVDNDQuNzEsNTYuMzQsNDYuMzEsNTYsNDgsNTYKCQloOTZjMS42OSwwLDMuMjksMC4zNCw0LjgyLDAuODJjMCwwLDAsMCwwLDBMMTQ5LDQ1bC0xNy01bC0xNi0xNmgtMTMuNDRIOTZoLTYuNTZINzZMNjAsNDBINDhjLTE3LjY3LDAtMzIsMTQuMzMtMzIsMzJ2MTJ2MjBsMTYsMTYKCQlWNzJ6Ii8+Cgk8cGF0aCBpZD0iR3JlZW4iIGZpbGw9IiMzNEE4NTMiIGQ9Ik0xNDQsNDBoLTEybDE2LjgzLDE2LjgzYzEuMjMsMC4zOSwyLjM5LDAuOTMsMy40NywxLjU5YzIuMTYsMS4zMiwzLjk3LDMuMTMsNS4yOSw1LjI5CgkJYzAuNjYsMS4wOCwxLjIsMi4yNCwxLjU5LDMuNDd2MEwxNzYsODRWNzJDMTc2LDU0LjMzLDE2MS42Nyw0MCwxNDQsNDB6Ii8+Cgk8cGF0aCBpZD0iWWVsbG93IiBmaWxsPSIjRkJCQzA0IiBkPSJNNDgsMTY4aDM5Ljg5bC0xNi0xNkg0OGMtOC44MiwwLTE2LTcuMTgtMTYtMTZ2LTIzLjg5bC0xNi0xNlYxMzZDMTYsMTUzLjY3LDMwLjMzLDE2OCw0OCwxNjh6CgkJIi8+CjwvZz4KPC9zdmc+Cg==" alt="">
+
+               </div>
+                
+            
+           
+
+        </div>
+        <div class="apps"></div>
+        <div class="languages"></div>
     </div>
-  </header>
+
 </body>
 
 </html>
